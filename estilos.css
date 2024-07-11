@@ -5,18 +5,18 @@
 		}
 
 @font-face{
-	font-family:"This Cafe";
-	src:url("fuentes/This Cafe.ttf");
+	font-family:"This cafe";
+	src:url("fuentes/This cafe.ttf");
 }
 
 @font-face{
-	font-family:"Space Kids";
-	src:url("fuentes/Space Kids.otf");
+	font-family:"Space kids";
+	src:url("fuentes/Space kids.otf");
 }
 
 @font-face{
-	font-family:"Kanvas File";
-	src:url("fuentes/Kanvas File.otf");
+	font-family:"Kanvas file";
+	src:url("fuentes/Kanvas file.otf");
 }
 
 @font-face{
@@ -43,7 +43,7 @@ h1{
 	}
 
 p{
-	font-family:"Space Kids";
+	font-family:"Space kids";
 	margin-left:3%;
 	margin-right:3%;
 	text-align:justify;
@@ -62,7 +62,7 @@ h2{
 h3{
 	font-size:22px;
 	margin-left:2%;
-	font-family:"This Cafe";
+	font-family:"This cafe";
 
 }
 
@@ -76,14 +76,14 @@ img{ /*Imágenes de la galería solamente*/
 ul{
 	margin-left:5%;
 	font-size:18px;
-	font-family:"Kanvas File";
+	font-family:"Kanvas file";
 	text-shadow:1px 1px 2px white;
 }
 
 ol{
 	margin-left:5%;
 	font-size:18px;
-	font-family:"Kanvas File";
+	font-family:"Kanvas file";
 }
 
 table{
