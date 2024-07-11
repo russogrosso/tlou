@@ -1,0 +1,170 @@
+@font-face{
+	font-family:Hippopotamus Apocalypse;
+	src:url("fuentes/Hippopotamus Apocalypse.otf");
+}
+
+@font-face{
+		font-family:Rust;
+		src:url("fuentes/Rust.ttf");
+		}
+
+@font-face{
+	font-family:This Cafe;
+	src:url("fuentes/This Cafe.ttf");
+}
+
+@font-face{
+	font-family:Space Kids;
+	src:url("fuentes/Space Kids.otf");
+}
+
+@font-face{
+	font-family:Kanvas File;
+	src:url("fuentes/Kanvas File.otf");
+}
+
+body{
+	background-image:url("img/fondo.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	}
+	
+h1{
+	font-family:Rust;
+	font-size:35px;
+	color:black;
+	text-shadow: 2px 2px 15px white;
+	text-align:center;
+	margin-left:3%;
+	margin-right:3%;
+	border-bottom-style:solid;
+	border-width:2px;
+	}
+
+p{
+	font-family:Space Kids;
+	margin-left:3%;
+	margin-right:3%;
+	text-align:justify;
+	line-height:25px;
+	font-size:22px;
+	text-shadow:1px 1px 1px #cae6e3;
+	
+}
+
+h2{
+	font-family:Hippopotamus Apocalypse;
+	margin-left:1%;
+	font-size:25px;
+}
+
+h3{
+	font-size:22px;
+	margin-left:2%;
+	font-family:This Cafe; 
+
+}
+
+img{ /*Imágenes de la galería solamente*/
+	display:inline;
+	margin:auto;
+	border-radius:10px;
+	box-shadow: 0px 0px 20px white;
+}
+
+ul{
+	margin-left:5%;
+	font-size:18px;
+	font-family: Kanvas File;
+	text-shadow:1px 1px 2px white;
+}
+
+ol{
+	margin-left:5%;
+	font-size:18px;
+	font-family:Kanvas File;
+}
+
+table{
+	margin-left:25%;
+	margin-right:25%;
+	border-style:double;
+	border-width:3px;
+	border-color:black;
+	border-radius:8px;
+	background-color:white;
+}
+
+
+td{
+	width:10%;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	text-shadow: 1px 1px 2px white;
+	font-family: ourier monaco, monospace;
+}
+
+a:link, a:visited{
+	text-decoration:none;
+}
+
+
+
+.imagenes{ /*Para las imágenes normales del sitio */
+	display:block;
+	margin:auto;
+	box-shadow: 0px 0px 20px black;
+	border-radius: 15px;
+}
+
+.logoslink:link, .logoslink:visited{ /*Cómo van a verse los logos que cambian de pestaña*/
+	display:inline;
+	margin: auto;
+	box-shadow:0px 0px 10px darkgreen;
+	border-radius:18px;
+	background-color:white;
+	text-decoration:none;
+	width:64px;
+	transition: width 2s;
+}
+
+.logoslink:hover{ /*Para los logos que cambian de pestaña*/
+	box-shadow: 2px 1px 100px black;
+    width:70px;
+	
+}
+
+.galeria:link, .galeria:viisted {/*Para las imágenes de la galería*/
+	width:100%;
+	transition: width 2s;
+}
+
+.galeria:hover{ /*Para la galería*/
+	box-shadow: 2px 1px 50px black;
+    width:20%;
+}
+
+.links:link, .links:visited{ /*Para los links de contacto y mas info*/
+	background-color:#e3e2de;
+	text-align:center;
+	margin-left:5%;
+	color:#135c11;
+	font-family:ourier-new, monospace;
+	border-radius:8px;
+}
+
+.links:hover{ /*contacto y más info*/
+	background-color:black;
+	border-style:dotted;
+	border-width:3px;
+}
+
+.inicio:link, .inicio:visited{ /*Para el link a index en "mecanicas"*/
+	background-color:white;
+	color:blue;
+}
+.inicio:hover{ /*Para el link a index en "mecanicas"*/
+	color:#60c4be;
+}
+	
