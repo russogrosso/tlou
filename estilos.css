@@ -1,5 +1,5 @@
 @font-face{
-	font-family:Hippopotamus Apocalypse;
+	font-family:"Hippopotamus Apocalypse";
 	src:url("fuentes/Hippopotamus Apocalypse.otf");
 }
 
@@ -9,17 +9,17 @@
 		}
 
 @font-face{
-	font-family:This Cafe;
+	font-family:"This Cafe";
 	src:url("fuentes/This Cafe.ttf");
 }
 
 @font-face{
-	font-family:Space Kids;
+	font-family:"Space Kids";
 	src:url("fuentes/Space Kids.otf");
 }
 
 @font-face{
-	font-family:Kanvas File;
+	font-family:"Kanvas File";
 	src:url("fuentes/Kanvas File.otf");
 }
 
@@ -42,7 +42,7 @@ h1{
 	}
 
 p{
-	font-family:Space Kids;
+	font-family:"Space Kids";
 	margin-left:3%;
 	margin-right:3%;
 	text-align:justify;
@@ -53,7 +53,7 @@ p{
 }
 
 h2{
-	font-family:Hippopotamus Apocalypse;
+	font-family:"Hippopotamus Apocalypse";
 	margin-left:1%;
 	font-size:25px;
 }
@@ -61,7 +61,7 @@ h2{
 h3{
 	font-size:22px;
 	margin-left:2%;
-	font-family:This Cafe; 
+	font-family:"This Cafe";
 
 }
 
@@ -75,14 +75,14 @@ img{ /*Imágenes de la galería solamente*/
 ul{
 	margin-left:5%;
 	font-size:18px;
-	font-family: Kanvas File;
+	font-family:"Kanvas File";
 	text-shadow:1px 1px 2px white;
 }
 
 ol{
 	margin-left:5%;
 	font-size:18px;
-	font-family:Kanvas File;
+	font-family:"Kanvas File";
 }
 
 table{
@@ -163,6 +163,11 @@ a:link, a:visited{
 .inicio:link, .inicio:visited{ /*Para el link a index en "mecanicas"*/
 	background-color:white;
 	color:blue;
+}
+.inicio:hover{ /*Para el link a index en "mecanicas"*/
+	color:#60c4be;
+}
+	
 }
 .inicio:hover{ /*Para el link a index en "mecanicas"*/
 	color:#60c4be;
