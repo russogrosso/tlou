@@ -5,8 +5,8 @@
 		}
 
 @font-face{
-	font-family:"This Cafe";
-	src:url("fuentes/This Cafe.ttf");
+	font-family:"This cafe";
+	src:url("fuentes/This cafe.ttf");
 }
 
 @font-face{
@@ -62,7 +62,7 @@ h2{
 h3{
 	font-size:22px;
 	margin-left:2%;
-	font-family:"This Cafe";
+	font-family:"This cafe";
 
 }
 
